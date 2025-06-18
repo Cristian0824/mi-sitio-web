@@ -1,0 +1,112 @@
+/* efecto hover menu */
+.container .tabs a:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e81236 ;
+    text-shadow:0 1px 0 #c42121,
+                /* 0 2px 0 #b5b5b5,
+                0 3px 0 #9b9b9b,
+                0 4px 0 #898989,
+                0 5px 0 #7b7b7b,
+                0 6px 0 #626262, */
+                0 1px 0 rgba(172, 1, 1, 0.2);
+}
+/* personalizar a menu */
+.container .tabs a{
+    color: #4d2cd0;
+    text-decoration: none;
+    display: block;
+    font-size: 2em;
+    margin-left: 5em;
+    margin-top: 2em;
+    
+}
+#vin{
+    color:#4d2cd0;;
+    text-decoration: none;
+    margin-left: 3.2em;
+    
+
+}
+@media(min-width:768px){
+    #vin{
+    color:#4d2cd0;;
+    text-decoration: none;
+    margin-left:1.2em;
+    }
+    
+    }
+    /* colocar en linea y quitar subrayado menu */
+li{
+    display:inline-block;
+    text-decoration: none;
+    
+}
+/* personalizar icono email formulario */
+#icono{
+    position:absolute;
+    color: white;
+    margin-top: 1.5px;
+    margin-left:0px;
+    font-size: 30px;
+    padding: 5px;
+    background: #3a229b;
+    border-radius:8px 0px 0px 8px;
+   text-align:center;
+
+}
+/* personalizar icono celular formulario*/
+#icono2{
+    position:absolute;
+    color:white;
+    margin-top: 1px;
+    margin-left:auto;
+    font-size: 30px;
+    padding: 5px;
+    background: #3a229b;
+    border-radius:8px 0px 0px 8px;
+
+}
+/* personalizar boton enviar */
+#boton{
+    background: #3a229b;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+/* personalizar imagenes de archivo celulares */
+#celulares{
+    width: 300px;
+    height: 200px;
+    border-radius:100%;    
+}
+/* efecto borde en imagenes  */
+#celulares:hover{
+    border: solid #3a229b;    
+}
+
+@media(min-width:768px){
+    #form{
+        margin-left: 28em;
+    }
+    
+    }
+    /* estilo a bienvenidos */
+h1{
+    font-family: 'Playfair Display',serif;
+    color: #3a229b;
+} 
+#inputtelefono{
+    padding-left: 50px;
+    /* text-align: center; */
+} 
+#inputEmail4{
+    padding-left: 50px;
+    /* text-align: center; */
+
+}  
+#iconomenu{
+    width: 20px;
+}
+img{
+    border-radius:20px 0px 20px 0px;
+}
